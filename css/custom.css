@@ -1,0 +1,33 @@
+/*
+    Make the portfolio section mobile friendly
+*/
+
+.icon {
+    width: 150px;
+    height: auto;
+}
+
+#navbar-logo {
+    height: 100px;
+    width: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .col.col-sm-6.mb-4 {
+        width: 100%;
+        max-width: 100% ;
+        height: auto ;
+    }
+
+    .portfolio-item {
+        width: 100%;
+        max-width: 100% ;
+        height: auto ;
+    }
+    
+    .portfolio-item img {
+        width: 100%;
+        max-width: 100% ;
+        height: auto ;
+    }
+}
